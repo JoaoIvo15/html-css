@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Você está vendo a imagem completa? se não, experimente aumentar o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 930px)" srcset="foto-pé.jpg" type="image/jpg">
+        <source media="(max-width: 1300px)" srcset="foto-mid.jpg" type="image/jpg">
+        <img src="imagem-full.jpg" alt="pessoas assistindo uma novela">
+    </picture>
+</body>
+</html>
